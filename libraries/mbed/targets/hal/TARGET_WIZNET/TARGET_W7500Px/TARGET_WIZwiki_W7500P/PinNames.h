@@ -168,20 +168,19 @@ typedef enum {
     A1          = PC_14,    // AIN1
     A2          = PC_13,    // AIN2
     A3          = PC_12,    // AIN3
-    A4          = PC_11,    // AIN4
-    A5          = PC_10,    // AIN5
-    A6          = PC_9,     // AIN6
-    A7          = PC_8,     // AIN7
+    A4          = PC_9,    // AIN4
+    A5          = PC_8,    // AIN5
+    
     D0          = PA_14,
     D1          = PA_13,
-    D2          = PC_1,
-    D3          = PC_0,
+    D2          = PC_3,
+    D3          = PC_2,
     D4          = PA_2,
     D5          = PA_1,
     D6          = PA_0,
-    D7          = PC_6,
-    D8          = PC_7,
-    D9          = PC_4,
+    D7          = PA_12,
+    D8          = PA_11,
+    D9          = PC_1,
     D10         = PA_5,
     D11         = PA_8,
     D12         = PA_7,
@@ -190,8 +189,8 @@ typedef enum {
     D15         = PA_9,
 
     // Generic signals namings
-    LED_RED     = PC_8,
-    LED_GREEN   = PC_9,
+    LED_RED     = PC_0,
+    LED_GREEN   = PC_4,
     LED_BLUE    = PC_5,
 
     LED1        = LED_RED,
